@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    /* list-style: circle; */
+list-style:square;
+list-style-image: url(../../image/arrow.jpg);
+/* list-style-position: outside; */
+list-style-position: inside;
+}
+
+
+ol{
+    /* list-style: upper-alpha; */
+/* list-style: upper-latin; */
+/* list-style: lower-alpha; */
+/* list-style: lower-greek; */
+/* list-style: lower-latin; */
+/* list-style: lower-roman; */
+/* list-style: upper-roman; */
+list-style: decimal-leading-zero;
+list-style-image: url(../../image/arrow.jpg);
+}
+/* table,th,td{ */
+/*  border:1px green solid;  */
+th,td{
+    border-bottom:  1px green solid;
+    
+}
+table{
+width: 100vw;
+margin: 5px;
+}
+th,td{
+    text-align: center;
+    padding: 1px;
+}
+th{
+    height: 3vh;
+    /* vertical-align:bottom; */
+    /* vertical-align: middle; */
+    /* vertical-align: top; */
+    vertical-align:text-top;
+    background-color: rgb(125, 9, 233);
+    color: rgb(16, 211, 211);
+}
+
+tr:hover{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: green;
+}
+.mytable{
+    overflow-x: scroll;
+    overflow-y: scroll; 
+     min-width:600; 
+    width: 100vw;
+    height: 100vh;
+    
+}
