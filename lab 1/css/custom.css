@@ -1,0 +1,25 @@
+ .para {
+                color: green;
+                background-color: orange;
+                padding: 10px;
+            }
+
+            .para-center {
+            color: red;
+                background-color:pink;
+                padding: 10px;
+                text-align: center;
+            }
+            #para-center {
+                color:blueviolet;
+                    background-color: black;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+            #para-right {
+                color: black; 
+                background-color: aqua;
+                padding: 10px;
+                text-align: right;
+            }

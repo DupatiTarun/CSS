@@ -1,0 +1,27 @@
+.para-right {
+    background-color: black;
+    color: aquamarine;
+    padding: 10ppx;
+    text-align: right;
+}
+
+.para-center {
+    background-color: blueviolet;
+    color: forestgreen;
+    padding: 10px;
+     text-align: center;
+}
+
+#para-right {
+    background-color: darkblue;
+    color: chocolate;
+    padding: 10px;
+    text-align: right;
+}
+
+#para-center {
+    background-color: grey;
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+}
