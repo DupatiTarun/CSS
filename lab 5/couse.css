@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.b-outline{
+    background-color:aliceblue;
+    border:groove 5px rgb(13, 73, 225);
+    margin: 8%;
+   /* outline-style: solid;
+    outline-width: 12px;
+    outline-color: blueviolet;
+    outline-offset: 4px;*/
+    outline: solid 4px purple;
+    outline-offset: 4px;
+}
+.my-button{
+    background-color: blue;
+    padding: 5px 15px;
+    margin: 10px;
+    color: tomato;
+    border-radius: 15px;
+}
+.my-button:hover{
+    background-color:aqua;
+    outline: inset 13px rgb(206, 246, 4);
+    width: 140px;
+}
+p{
+    background-color: black;
+    color: orange;
+    padding: 3px;
+   /* text-align:center;
+   text-align:right;
+   text-align: left
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-transfrom:uppercase;
+    text-transfrom:capitalize;*/
+    text-indent: 10px;
+    letter-spacing: 2px;
+    line-height:3;
+    word-spacing: -23px;
+    white-space: nowrap;
+    }
+    h1{
+text-shadow: 5px 5px 5px  rgb(223, 15, 223);
+    }
