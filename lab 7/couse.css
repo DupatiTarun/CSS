@@ -1,0 +1,15 @@
+.b-cutter{
+    background-color: blue;
+    color: antiquewhite;
+    padding: 4px 4px;
+    width: 4px 8px;
+    border-radius: 15px;
+}
+.b-cutter:hover{
+    background-color: aqua;
+    color: blueviolet;
+    padding: 4px;
+    width: 140px;
+    border-style:groove;
+    
+}
