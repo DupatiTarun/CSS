@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: opx;
+    margin: 0px;
+}
+h1{
+    background-color: aqua;
+    padding: 4px;
+    margin: 4px;
+}
+p{
+    background-color:red;
+    padding: 4px;
+    margin: 4px;
+}
+div{
+    background-color:gold ;
+    padding: 4px;
+    margin: 4px;
+}
+.black-bg-img{
+    height:100vh ;
+/*background-image: url(https://t4.ftcdn.net/jpg/12/52/97/55/360_F_1252975572_Duu2R7JSuvl7EkNybfRlIoY3NyDjTdDM.jpg);?
+/*background-image:url(./pic1.jpg);*/
+background-image: url(./pic-2.jpg);
+/*background-repeat: repeat-x;*/
+/*background-repeat : repeat-y;*/
+background-repeat: no-repeat;
+background-position: center;
+/*background-position: right bottom;
+background-position: right top;
+background-position: bottom
+background-position: center;
+background-position: right;
+background-position: top;*/
+}
+.bg-img{
+    height: 100vh;
+    background:green  url(https://media.istockphoto.com/id/474517002/photo/autumn-tree.jpg?s=612x612&w=0&k=20&c=AWFNrNVNsTGZxaYw95VNIKlKz2oonZ9X5guR7ssnZzI=)left bottom no-repeat ;
+    color: brown;
